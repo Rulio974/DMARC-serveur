@@ -17,10 +17,16 @@ DKIM (DomainKeys Identified Mail) ajoute une signature numérique à la tête de
 
 Lorsqu'un serveur de messagerie reçoit un email, il peut vérifier les enregistrements DMARC du domaine de l'expéditeur pour voir comment traiter l'email.
 
-## Fonctionnalités 💡
+## Fonctionnalités et support 💡
 
 DMARC serveur permet de parser, de stocker et d'exposer des rapports DMARC. Il est construit pour permettre aux utilisateurs d'interagir facilement avec ces derniers.
 Il est basé sur le projet `https://github.com/userjack6880/Open-DMARC-Analyzer`.
+
+Les versions d'OS et de dépendances testés sont les suivantes :
+
+| OS | NodeJS | MariaDB | Perl |
+| :----: | :----: | :----: | :----: |
+| Debian 11 | 18.16.1 | 10.5.19 | 5.32.1 |
 
 ## Installation Serveur 🗼
 
