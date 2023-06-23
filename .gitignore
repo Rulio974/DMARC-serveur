@@ -7,3 +7,4 @@ report-parser.conf
 report-parser.conf.pub
 report-parser.pl
 node_modules/
+.gitignore
