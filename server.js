@@ -9,7 +9,20 @@ const fs = require('fs');
 
 const app = express();
 app.use(cors());
-const port = 80;
+
+let port = 80; // Port par défaut
+const args = process.argv.slice(2); // Supprimer les deux premiers arguments (node et le chemin du script)
+for (let i = 0; i < args.length; i++) {
+  if (args[i] === '-p') {
+    if (i+1 < args.length && !isNaN(args[i+1])) {
+      port = Number(args[i+1]);
+    } else {
+      console.error('Veuillez fournir un numéro de port valide après -p');
+      process.exit(1);
+    }
+  }
+}
+
 
 const db = mysql.createConnection({
   host: 'localhost',
