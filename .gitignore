@@ -6,5 +6,4 @@ package-lock.json
 report-parser.conf
 report-parser.conf.pub
 report-parser.pl
-uploads/*
 node_modules/
