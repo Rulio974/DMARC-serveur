@@ -1,5 +1,8 @@
 ## :construction: Projet en cours de développement :construction:
 
+
+![Alt text](https://github.com/Rulio974/DMARC-serveur/blob/main/assets/ban_serveur.png)
+
 # Visualiseur DMARC : Serveur
 
 Visualiseur DMARC permet de parser, de stocker et d'exposer des rapports DMARC. Il est construit pour permettre aux utilisateurs d'interagir facilement avec ces derniers.
